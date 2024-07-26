@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>html21</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1>Creating contact links</h1>
+    <!-- Email link -->
+    <a href="mailto:hello@example.com">Send Email</a><br />
+
+    <!-- Phone link -->
+    <a href="tel:+0123456789">Call us</a><br />
+
+    <!-- SMS Link -->
+    <a href="sms:+0123456789">Send sms</a><br />
+
+    <h1>Creating collapsible content</h1>
+    <details>
+      <summary>Click to expand</summary>
+      <p>This content can be expanded or collapsed</p>
+    </details>
+
+    <h1>Grouping Form Elements</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal details</legend>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" /><br />
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" /><br />
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" name="contact" /><br />
+        <input type="button" value="Submit" />
+      </fieldset>
+    </form>
+
+    <h1>Enhancing Dropdown Menus</h1>
+    <select name="" id="">
+      <optgroup label="vegetables">
+        <option value="">Tomato</option>
+        <option value="">Carrot</option>
+        <option value="">Salad</option>
+      </optgroup></select
+    ><br />
+    <br />
+    <select name="" id="">
+      <optgroup label="fruits">
+        <option value="">Apple</option>
+        <option value="">Banana</option>
+        <option value="">Mango</option>
+      </optgroup>
+    </select>
+
+    <h1>Improving Video Presentation</h1>
+    <video src="./vid/wow.mp4" controls poster="./img/country.JPG" width="500">
+      <source src="./vid/wow.mp4" type="video/mp4" />
+    </video>
+
+    <h1>Supporting Multiple Selections</h1>
+    <input type="file" multiple />
+    <select multiple>
+      <option value="java">Java</option>
+      <option value="javascript">JavaScript</option>
+      <option value="typescript">TypeScript</option>
+      <option value="rust">rust</option>
+    </select>
+
+    <h1>Display Text as Subscript and Superscript</h1>
+    <p>H<sub>2</sub>0</p>
+    <p>(a + b) <sup>2</sup></p>
+
+    <h1>Creating download links</h1>
+    <a href="./doc/hng_internship_11.pdf" download="./doc/hng_internship_11.pdf"
+      >Download PDF</a
+    >
+
+    <h1>Defining base URL for relative links</h1>
+    <head>
+      <base href="/" target="_blank" />
+    </head>
+    <body>
+      <a href="./index.html">index</a>
+      <a href="#">#</a>
+    </body>
+
+    <h1>COntrol image loading</h1>
+    <img src="./img/country.JPG" alt="" width="400" loading="lazy" />
+
+    <h1>Managing translation features</h1>
+    <p translate="no">This text should not be translated</p>
+
+    <h1>Setting maximum input length</h1>
+    <input type="text" name="" id="" maxlength="4" />
+
+    <h1>Setting minimum input length</h1>
+    <input type="text" name="" id="" minlength="3" />
+
+    <h1>Enabling content editing</h1>
+    <div contenteditable="true">You can edit this content</div>
+
+    <h1>Controlling spell checking</h1>
+    <input type="text" name="" id="" spellcheck="true" />
+
+    <h1>Ensuring accessiblity</h1>
+    <img src="./img/country.JPG" alt="country" width="400" />
+
+    <h1>Defining target behavior for links</h1>
+    <!-- Opens in the same frame -->
+    <a href="/index.html" target="_blank">Open</a><br />
+
+    <!-- Opens in a new window or tab -->
+    <a href="./index.html" target="_blank">Open</a><br />
+
+    <!-- Opens in the parent frame -->
+    <a href="https://shefali.dev" target="_parent">Open</a><br />
+
+    <!-- Opens in the full body of the window -->
+    <a href="https://shefali.dev" target="_top">Open</a><br />
+
+    <!-- Opens in the named frame -->
+    <a href="https://shefali.dev" target="framename">Open</a><br />
+
+    <h1>Providing additional information</h1>
+    <p title="Abdullahi Busybrain Innovations">ABI</p>
+
+    <h1>Accepting specific file types</h1>
+    <input type="file" name="" id="" accept="image/png,image/jpeg,image/JPG" />
+
+    <h1>Optimizing video loading</h1>
+    <video src="./vid/wow.mp4" width="400" controls preload="auto">
+      Your browser does not support the video tag
+    </video>
+  </body>
+</html>
